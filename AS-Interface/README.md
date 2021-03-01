@@ -5,7 +5,7 @@ Up to 31 slaves (Addresses 1 to 31).
 There are 4 bits of data and 4 bits of parameters in each slave. Data shows the I/O status of each slave (ON/OFF). Parameters modify the behaviour of the slave ( frequency,
 speed...).
 
-Hot module replacement ==> The master saves the address, ID and I/O from the defective slave ( a slave is defective when it doesn't answer the requests made by the master).
+Hot module replacement => The master saves the address, ID and I/O from the defective slave ( a slave is defective when it doesn't answer the requests made by the master).
 After that, if the master detects a new slave with address 0 (factory address), it checks if both ID and I/O are identical to the ones saved. If the are, the master changes the
 new slave address so it matches the defective slave's old address.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
