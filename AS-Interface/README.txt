@@ -8,7 +8,7 @@ speed...).
 Hot module replacement ==> The master saves the address, ID and I/O from the defective slave ( a slave is defective when it doesn't answer the requests made by the master).
 After that, if the master detects a new slave with address 0 (factory address), it checks if both ID and I/O are identical to the ones saved. If the are, the master changes the
 new slave address so it matches the defective slave's old address.
-----------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 COMMANDS
 
@@ -19,14 +19,14 @@ Address_assignment is also implemented, in case a hot module replacement is requ
 
 These commands are done by the master on it's own. The user can't introduce then manually.
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 DATA AND PARAMETERS
 
 The user can modify data and parameters from a slave detected with the switches and buttons from the development board DE10-Lite. The master receives this data/parameter from
 the user and sends the order to the selected slave. 
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 DATA DISPLAY
 
@@ -36,7 +36,7 @@ Slaves' inputs are connected to GPIOs pins.
 Slaves' outputs are connected to the leds on top of the switches.
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SLAVES
 
@@ -44,4 +44,14 @@ There are many types of slaves according to their I/O and ID. I decided to creat
 2 digital inputs and 2 digital outputs. The I/O code is "0x3", and the ID code is "0xF" because its a free slave, meaning the I/O do whatever you want.
 
 2 of these slaves are connected before the system is initialized. The purpose of the third one (address 0) is to test the hot module replacement. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PHYSICAL IMPLEMENTATION
+
+
+
+
+
+
 
