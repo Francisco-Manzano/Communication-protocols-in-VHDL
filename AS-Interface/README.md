@@ -49,7 +49,7 @@ PHYSICAL IMPLEMENTATION
 ![placa](https://user-images.githubusercontent.com/79548135/109556379-07a8ea80-7ad7-11eb-8c71-e24374bd9107.png)
 
 
-![esclavo 0](https://user-images.githubusercontent.com/79548135/109554166-2eb1ed00-7ad4-11eb-930d-1eda38c1ac77.jpg)
+
 
 
 
