@@ -1,6 +1,6 @@
 Classic AS-Interface implementation. 
 
-Up to 31 slaves (Address 1 to 31).
+Up to 31 slaves (Addresses 1 to 31).
 
 There are 4 bits of data and 4 bits of parameters in each slave. Data shows the I/O status of each slave (ON/OFF). Parameters modify the behaviour of the slave ( frequency,
 speed...).
@@ -30,7 +30,11 @@ the user and sends the order to the selected slave.
 
 DATA DISPLAY
 
-BCD_7 from the DE10-Lite shows when a slave is detected, as well as the data/parameters from this slave. It also shows the data/parameter the user is introducing manually.
+BCD_7 from the DE10-Lite shows when a slave is detected, as well as the data/parameters (hex value) from this slave. It also shows the data/parameter the user is introducing
+manually.
+Slaves' inputs are connected to GPIOs pins.
+Slaves' outputs are connected to the leds on top of the switches.
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
