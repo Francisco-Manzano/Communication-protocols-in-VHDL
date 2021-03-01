@@ -50,6 +50,7 @@ There are many types of slaves according to their I/O and ID. I decided to creat
 PHYSICAL IMPLEMENTATION
 
 
+![esclavo 0](https://user-images.githubusercontent.com/79548135/109554166-2eb1ed00-7ad4-11eb-930d-1eda38c1ac77.jpg)
 
 
 
