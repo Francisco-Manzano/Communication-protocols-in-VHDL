@@ -20,3 +20,7 @@ If an answer to a remote frame is received, the control node saves the data and 
 
 This node can only send data/remote frames and receive data frames. It cannot receive remote frames. I made it this way so it works as a control unit, requesting/sending data to the rest of the nodes (because i needed to implement data/remote frames).
 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+BASIC NODES
+
