@@ -1,4 +1,4 @@
-Classic AS-Interface implementation. 
+# Classic AS-Interface implementation. 
 
 Up to 31 slaves (Addresses 1 to 31).
 
@@ -8,7 +8,7 @@ Hot module replacement => The master saves the address, ID and I/O from the defe
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-COMMANDS
+## COMMANDS
 
 The master is a mix of M0 and M2, meaning that it can send data, parameters and commands, but not all of them. When the system is initialized or when a new slave is detected, the master sends commands Read I/O and Read ID to the slaves. These two commands are mandatory because the master needs to store the I/O and ID from each slave. 
 
@@ -18,13 +18,13 @@ These commands are done by the master on it's own. The user can't introduce then
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-DATA AND PARAMETERS
+## DATA AND PARAMETERS
 
 The user can modify data and parameters from a slave detected with the switches and buttons from the development board DE10-Lite. The master receives this data/parameter from the user and sends the order to the selected slave. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-DATA DISPLAY
+## DATA DISPLAY
 
 BCD_7 from the DE10-Lite shows when a slave is detected, as well as the data/parameters (hex value) from this slave. It also shows the data/parameter the user is introducing manually.
 Slaves' inputs are connected to GPIOs pins.
@@ -33,7 +33,7 @@ Slaves' outputs are connected to the leds on top of the switches.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-SLAVES
+## SLAVES
 
 There are many types of slaves according to their I/O and ID. I decided to create three "easy" slaves, just to test if the implementation is properly working. These slaves have
 2 digital inputs and 2 digital outputs. The I/O code is "0x3", and the ID code is "0xF" because its a free slave, meaning the I/O do whatever you want.
@@ -44,7 +44,7 @@ The slaves implemented can answer to all the commands listed in the protocol doc
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-PHYSICAL IMPLEMENTATION
+## PHYSICAL IMPLEMENTATION
 
 ![placa](https://user-images.githubusercontent.com/79548135/109556379-07a8ea80-7ad7-11eb-8c71-e24374bd9107.png)
 
