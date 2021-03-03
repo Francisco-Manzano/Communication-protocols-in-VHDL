@@ -18,7 +18,7 @@ This node receives orders (send data/remote frame) from the user through the DE1
 
 If an answer to a remote frame is received, the control node saves the data and shows it through the BCD_7.
 
-This node can only send data/remote frames and receive data frames. It cannot receive remote frames. I made it this way so it works as a control unit, requesting/sending data to the rest of the nodes (because i needed to implement data/remote frames).
+This node can only send data/remote frames and receive data frames. It cannot receive remote frames. I made it this way so it works as a control unit, requesting/sending data to the rest of the nodes (because I needed to implement data/remote frames).
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
