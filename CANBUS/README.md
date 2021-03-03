@@ -1,6 +1,6 @@
 
                           
-                            This is a classic CAN BUS implementation ==> 2.A STANDARD MESSAGE FORMAT. 
+##                           Classic CAN BUS implementation ==> 2.A STANDARD MESSAGE FORMAT. 
                  
  I decided not to implement the extended format because the 11 ID bits were more than enough to test the protocol. Based on the ISO standard 11898.
  
@@ -12,7 +12,7 @@
 
  ---------------------------------------------------------------------------------------------------------------------------------------------------
  
-CONTROL NODE
+## CONTROL NODE
   
 This node receives orders (send data/remote frame) from the user through the DE10-Lite switches and buttons. Then it sends the message to the rest of the nodes created. If the message is "finished" (no error/arbitration lost), the control node waits for an answer (if it sent a remote frame) or assumes the message has been properly received.
 
@@ -22,7 +22,7 @@ This node can only send data/remote frames and receive data frames. It cannot re
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-BASIC NODES
+## BASIC NODES
 
 They have 2 digital inputs and 2 digital outputs. The data size of these nodes is 1 byte.
 
@@ -32,13 +32,13 @@ Node 2 reacts to IDs 3 and 4. ID 3 is connected to the inputs, so when the node 
 
 ---
 
-DATA DISPLAY
+## DATA DISPLAY
 
 BCD_7 from the DE10-Lite shows the current ID, the type if ID (if it's connected to an input or an output) and the last data received from this ID. Nodes' inputs are connected to switches. Nodes' outputs are connected to the leds on top of the switches. 
 
 ---
 
-PHYSICAL IMPLEMENTATION
+## PHYSICAL IMPLEMENTATION
 
 ![canbus botones](https://user-images.githubusercontent.com/79548135/109698901-30d98180-7b90-11eb-9e2d-739cc50faf82.png)
 
