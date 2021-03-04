@@ -20,6 +20,12 @@
 
 
 TESTING ANALOG FUNCTION (4) WITH MODBUS ARDUINO (https://github.com/yaacov/ArduinoModbusSlave)
+
+ 10 bit adc | 5 V VCC:
+
+ 0xD6 ==>214 dec ==> 214 x 5 / 1024 = 1.46 V
+      
+      
                           
 ![analogica](https://user-images.githubusercontent.com/79548135/109715824-65efcf00-7ba4-11eb-9611-626ffb91e40d.png)
                                                     
