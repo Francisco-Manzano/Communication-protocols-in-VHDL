@@ -34,4 +34,8 @@ the switches and buttons from the development board, and then sends it to the sl
 ## DATA DISPLAY
 
  BCD_7 from the DE10-Lite shows the slave answer, if it happens, as well as the CRC code (just for testing purposes). It also shows the inputs the user is introducing manually. The user introduces manually the message (address, function....). Once it is done, the switch "start_transmision" must be turned on.
- Slaves' inputs are connected to the switches. Slaves' outputs are connected to the leds on top of the switches.       
+ Slaves' inputs are connected to the switches. Slaves' outputs are connected to the leds on top of the switches.
+ 
+ ## PHYSICAL IMPLEMENTATION
+ 
+ ![placa nombres](https://user-images.githubusercontent.com/79548135/110376692-c9ba4200-8053-11eb-9435-1fbc068670be.png)
