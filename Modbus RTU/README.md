@@ -1,6 +1,6 @@
 
 
-   ###                            Modbus RTU implementation
+   ###   MODBUS RTU IMPLEMENTATION
          
    Master and slave implemented. Slave answers to digital functions (1,2,5,15).
     
