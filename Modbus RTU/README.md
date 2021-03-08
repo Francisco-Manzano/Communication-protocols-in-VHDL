@@ -8,11 +8,11 @@
  
    Message format ==> 1 Start bit and 2 End bits. Parity bit NOT implemented.
     
-   Values recieved => 16 bits unsigned integers. Big Endian format.
+   Values received => 16 bits unsigned integers. Big Endian format.
     
    ## FUNCTIONS 
    
-   The user can manually introduce any function he wants (digital or analogic). The master recieves this order through
+   The user can manually introduce any function he wants (digital or analog ). The master receives this order through
 the switches and buttons from the development board, and then sends it to the slave selected.
    My slave only answers to digital functions. Analogic functions cause an exception.
    
