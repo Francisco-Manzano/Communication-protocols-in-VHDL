@@ -12,9 +12,9 @@
     
    ## FUNCTIONS 
    
-   The user can manually introduce any function he wants (digital or analogic ). The master receives this order through
+   The user can manually introduce any function he wants (digital or analog ). The master receives this order through
 the switches and buttons from the development board, and then sends it to the slave selected.
-   My slave only answers to digital functions. Analogic functions cause an exception.
+   My slave only answers to digital functions. Analog functions cause an exception.
    
    ## SLAVES
    
@@ -27,7 +27,7 @@ the switches and buttons from the development board, and then sends it to the sl
    ## EXCEPTIONS
    
    Three exception implemented:
-   1. Illegal function : In our case, analogic functions (not implemented).
+   1. Illegal function : In our case, analog functions (not implemented).
    2. Illegal data address: The address does not exist. It happens when you try to access an input/output that does not exist in the selected slave.
    3. Illegal data value.
 
