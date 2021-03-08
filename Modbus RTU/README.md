@@ -12,7 +12,7 @@
     
    ## FUNCTIONS 
    
-   The user can manually introduce any function he wants (digital or analog ). The master receives this order through
+   The user can manually introduce any function he wants (digital or analogic ). The master receives this order through
 the switches and buttons from the development board, and then sends it to the slave selected.
    My slave only answers to digital functions. Analogic functions cause an exception.
    
